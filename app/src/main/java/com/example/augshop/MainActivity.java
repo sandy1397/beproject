@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button registerButton, loginButton;
+    private Button registerButton, loginButton,skipButton;
 
 
     @Override
@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         registerButton = (Button) findViewById(R.id.main_register);
         loginButton = (Button) findViewById(R.id.main_login);
+        skipButton = (Button) findViewById(R.id.skip);
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, registerActivity.class);
+                startActivity(intent);
+
+            }
+        });
+        skipButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, homeActivity.class);
                 startActivity(intent);
 
             }
