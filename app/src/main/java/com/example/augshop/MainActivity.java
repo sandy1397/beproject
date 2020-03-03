@@ -23,17 +23,13 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, loginActivity.class);
-                startActivity(intent);
-
+                startActivity( new Intent(MainActivity.this, loginActivity.class));
             }
         });
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, registerActivity.class);
-                startActivity(intent);
-
+                startActivity(new Intent(MainActivity.this, registerActivity.class));
             }
         });
     }

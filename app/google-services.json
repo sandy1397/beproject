@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "686422305152",
+    "firebase_url": "https://beproject-augshop.firebaseio.com",
+    "project_id": "beproject-augshop",
+    "storage_bucket": "beproject-augshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686422305152:android:e60993176cbc4d71113965",
+        "android_client_info": {
+          "package_name": "com.example.augshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686422305152-d60g8lkoge0g6odngl7ugj72ka6aqvcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.augshop",
+            "certificate_hash": "7845bfcaa146c26ef6c2d3c61b87641bb3e66376"
+          }
+        },
+        {
+          "client_id": "686422305152-rfd17ptbb7qhal7ur1uloo64jq6meel8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuAsb95Lrp3I1eAT3fh47g0c2CLep_4mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686422305152-rfd17ptbb7qhal7ur1uloo64jq6meel8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
